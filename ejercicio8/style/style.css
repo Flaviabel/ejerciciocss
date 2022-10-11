@@ -1,19 +1,58 @@
-h1 {
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-h2{
+#main{
     font-size: 20px;
     border: solid red;
     border-radius: 4px;
-    width: 15%;
-    height: 200px;
-    padding: 3px;
+    height: 500px
 }
-
-h3{
+header, footer,#navigation, #sidebar, #ads{
     border: solid red;
     border-radius: 4px;
-    width: 15%;
-    padding: 3px;
+}
+header{
+    grid-area: header;
+}
+#sidebar{
+    grid-area: sidebar;
+}
+#ads{
+    grid-area: ads;
+}
+#main{
+    grid-area: main;
+}
+#navigation{
+    grid-area: navigation;
+}
+footer{
+    grid-area: footer;
+}
+@media (min-width:770px) {
+    section {
+        gap: 10px;
+        display: grid;
+        grid-template-areas:
+        "header header header"
+        "sidebar navigation ads"
+        "sidebar main ads"
+        "footer footer footer"
+    }
+}
+@media (max-width:480px) {
+    section {
+        gap: 2px;
+        display: flex;
+        flex-direction: column;  
+    }
+}
+@media (min-width:481px)and (max-width:769px) {
+    section {
+        gap: 5px;
+        display: grid;
+        grid-template-areas:
+        "header header"
+        "navigation navigation"
+        "sidebar main"
+        "sidebar main"
+        "ads footer";
+    }
 }
