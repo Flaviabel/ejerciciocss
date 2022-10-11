@@ -1,4 +1,4 @@
-/*
+
 button{
     padding: 10px 30px;
 }
@@ -15,34 +15,30 @@ button{
   .button:hover  + .p{
      left: 100px;
      transition: 0.9s;
-  } */
+  }
 
-/*.p2{
-    opacity: 0;
+.p2{
+    color: white;
   }
   .button2:hover  + .p2{
-    opacity: 10;
+    color: pink;
     transition: 0.9s;
  }
- */
 
 .button3 {
   padding: 10px 30px;
   position: relative;
 }
 .p3{
-  color: black;
+  color:white;
 }
 
 .contenedor>.p3 {
   position: absolute;
-  left: 1800px;
-  padding: 10px;
-  transition: color 0.8s ease-in-out 2s;
+  transition:4s;
 }
 
 .button3:hover+.p3 {
-  left: 100px;
   color: pink;
-  transition: 0.8s;
+  transition: 4s;
 }
