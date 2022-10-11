@@ -1,0 +1,14 @@
+section {
+    width: 1000px;
+    height: fit-content;
+    margin: 3rem auto;
+    padding: 1rem 0;
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+div {
+    background-color: brown;
+    padding: 4% 13%;
+}
