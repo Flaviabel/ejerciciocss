@@ -1,0 +1,48 @@
+/*
+button{
+    padding: 10px 30px;
+}
+.contenedor{
+    display:inline-block;
+    position:relative;
+  }
+  .contenedor> .p{
+    position: absolute;
+    left: 1800px;
+    margin: 0;
+    padding: 10px;
+  }
+  .button:hover  + .p{
+     left: 100px;
+     transition: 0.9s;
+  } */
+
+/*.p2{
+    opacity: 0;
+  }
+  .button2:hover  + .p2{
+    opacity: 10;
+    transition: 0.9s;
+ }
+ */
+
+.button3 {
+  padding: 10px 30px;
+  position: relative;
+}
+.p3{
+  color: black;
+}
+
+.contenedor>.p3 {
+  position: absolute;
+  left: 1800px;
+  padding: 10px;
+  transition: color 0.8s ease-in-out 2s;
+}
+
+.button3:hover+.p3 {
+  left: 100px;
+  color: pink;
+  transition: 0.8s;
+}

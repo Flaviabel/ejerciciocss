@@ -1,0 +1,31 @@
+section{
+    
+    padding: 20px;
+}
+div{
+    position: relative;
+}
+p{
+    border: solid black;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+#div2{
+   position: absolute;
+   left: 10%;
+   top: 50%;
+}
+#div3{
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    
+}
+#div4{
+    width: 100px;
+    height: 300px;
+    position: absolute;
+    top: 1%;
+    left: 25%;
+}
