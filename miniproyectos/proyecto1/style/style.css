@@ -1,0 +1,25 @@
+img{
+    width: 500px;
+}
+h1{
+    width: 500px;
+    position: absolute;
+    top: 30%;
+}
+h1:hover{
+    background-color: palevioletred; 
+    transform: rotate(360deg);
+    transition: 1s;   
+    color: white;
+    font-family:monospace;
+}
+p{
+    color: white;
+    position: absolute;
+    width: 500px;
+}
+h1:hover + p{
+    color:palevioletred;
+    transition: 2s;
+    top: 0%;
+}

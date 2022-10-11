@@ -29,6 +29,7 @@ button{
   padding: 10px 30px;
   position: relative;
 }
+
 .p3{
   color:white;
 }
@@ -41,4 +42,5 @@ button{
 .button3:hover+.p3 {
   color: pink;
   transition: 4s;
+  transition: ease-in-out 2s;
 }
